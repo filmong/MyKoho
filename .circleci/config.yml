@@ -7,4 +7,5 @@ jobs:
     steps:
       - checkout
       - run: echo "A first hello, job one"
+      - run: dotnet build
       
